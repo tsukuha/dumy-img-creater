@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "allowJs": true,
+        "strict": true,
+        "module": "ES6",
+        "target": "es5",
+        "jsx": "react",
+    },
+    "include": [
+        "src",
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+}
