@@ -1,11 +1,11 @@
-# Img Template Creater
+# Dumy Img Creater
 
 ## Buid
 
-`build`: Run Buid
-`start`: Start Local Server
-`lint-check`: checked eslint prettier
-`lint-fix`: fixed eslint prettier
+`build`: Run Buid  
+`start`: Start Local Server  
+`lint-check`: checked eslint prettier  
+`lint-fix`: fixed eslint prettier  
 
 ## Architecture
 - SPA
