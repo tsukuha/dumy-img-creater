@@ -1,13 +1,13 @@
-# ReactHooks Using TypeScript Template
+# Img Template Creater
 
-## ビルド
+## Buid
 
-`build`: ビルドを行う  
-`start`: ローカルサーバを立ち上げる
-`lint-check`: eslintとprettierのチェックを行う  
-`lint-fix`: eslintとprettierのチェックを行いそれに沿って修正する    
+`build`: Run Buid
+`start`: Start Local Server
+`lint-check`: checked eslint prettier
+`lint-fix`: fixed eslint prettier
 
-## 構成
+## Architecture
 - SPA
 - ReactHooks + TypeScript + Sass
 - Webpack
