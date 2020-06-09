@@ -9,6 +9,6 @@
 
 ## Architecture
 - SPA
-- ReactHooks + TypeScript + Sass
+- ReactHooks + TypeScript + Sass + Prettirer + Eslint
 - Webpack
 
