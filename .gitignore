@@ -1,5 +1,5 @@
-node_modules
-dist
-yarn-error.log
-package-lock.json
+src/frontend/node_modules
+src/frontend/dist
+src/frontend/yarn-error.log
+src/frontend/package-lock.json
 **/*/.DS_STORE

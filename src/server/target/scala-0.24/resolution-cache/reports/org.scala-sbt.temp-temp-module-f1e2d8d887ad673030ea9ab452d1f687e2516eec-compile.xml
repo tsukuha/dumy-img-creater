@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec"
+		revision="0.24.0-RC1"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional"
+		date="20200611202809"/>
+	<dependencies>
+		<module organisation="ch.epfl.lamp" name="dotty-compiler_0.24">
+			<revision name="0.24.0-RC1" status="release" pubdate="20200427202407" resolver="public" artresolver="public" homepage="https://github.com/lampepfl/dotty" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="4910" time="535" location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/dotty-compiler_0.24/ivy-0.24.0-RC1.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/dotty-compiler_0.24/ivy-0.24.0-RC1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.24/0.24.0-RC1/dotty-compiler_0.24-0.24.0-RC1.pom"/>
+				<caller organisation="org.scala-sbt.temp" name="temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec" conf="compile" rev="0.24.0-RC1" rev-constraint-default="0.24.0-RC1" rev-constraint-dynamic="0.24.0-RC1" callerrev="0.24.0-RC1"/>
+				<artifacts>
+					<artifact name="dotty-compiler_0.24" type="jar" ext="jar" status="successful" details="" size="12550871" time="13650" location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/dotty-compiler_0.24/jars/dotty-compiler_0.24-0.24.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.24/0.24.0-RC1/dotty-compiler_0.24-0.24.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jline" name="jline-terminal-jna">
+			<revision name="3.9.0" status="release" pubdate="20180718040627" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="1765" time="614" location="/Users/kawakamii/.ivy2/cache/org.jline/jline-terminal-jna/ivy-3.9.0.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/org.jline/jline-terminal-jna/ivy-3.9.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.pom"/>
+				<caller organisation="ch.epfl.lamp" name="dotty-compiler_0.24" conf="default, compile, runtime, master" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="0.24.0-RC1"/>
+				<artifacts>
+					<artifact name="jline-terminal-jna" type="jar" ext="jar" status="successful" details="" size="62954" time="500" location="/Users/kawakamii/.ivy2/cache/org.jline/jline-terminal-jna/jars/jline-terminal-jna-3.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jna" name="jna">
+			<revision name="4.2.2" status="release" pubdate="20160316234216" resolver="public" artresolver="public" homepage="https://github.com/java-native-access/jna" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
+				<license name="ASL, version 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1343" time="589" location="/Users/kawakamii/.ivy2/cache/net.java.dev.jna/jna/ivy-4.2.2.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/net.java.dev.jna/jna/ivy-4.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.pom"/>
+				<caller organisation="org.jline" name="jline-terminal-jna" conf="compile, runtime" rev="4.2.2" rev-constraint-default="4.2.2" rev-constraint-dynamic="4.2.2" callerrev="3.9.0"/>
+				<artifacts>
+					<artifact name="jna" type="jar" ext="jar" status="successful" details="" size="1137286" time="920" location="/Users/kawakamii/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jline" name="jline-reader">
+			<revision name="3.9.0" status="release" pubdate="20180718040642" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="1116" time="421" location="/Users/kawakamii/.ivy2/cache/org.jline/jline-reader/ivy-3.9.0.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/org.jline/jline-reader/ivy-3.9.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.pom"/>
+				<caller organisation="ch.epfl.lamp" name="dotty-compiler_0.24" conf="default, compile, runtime, master" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="0.24.0-RC1"/>
+				<artifacts>
+					<artifact name="jline-reader" type="jar" ext="jar" status="successful" details="" size="140167" time="885" location="/Users/kawakamii/.ivy2/cache/org.jline/jline-reader/jars/jline-reader-3.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jline" name="jline-terminal">
+			<revision name="3.9.0" status="release" pubdate="20180718040618" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="1149" time="590" location="/Users/kawakamii/.ivy2/cache/org.jline/jline-terminal/ivy-3.9.0.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/org.jline/jline-terminal/ivy-3.9.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.pom"/>
+				<caller organisation="org.jline" name="jline-reader" conf="compile, runtime" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="3.9.0"/>
+				<caller organisation="org.jline" name="jline-terminal-jna" conf="compile, runtime" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="3.9.0"/>
+				<caller organisation="ch.epfl.lamp" name="dotty-compiler_0.24" conf="default, compile, runtime, master" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="0.24.0-RC1"/>
+				<artifacts>
+					<artifact name="jline-terminal" type="jar" ext="jar" status="successful" details="" size="208392" time="483" location="/Users/kawakamii/.ivy2/cache/org.jline/jline-terminal/jars/jline-terminal-3.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="compiler-interface">
+			<revision name="1.2.5" status="release" pubdate="20181130160848" resolver="public" artresolver="public" homepage="https://github.com/sbt/zinc" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="3662" time="468" location="/Users/kawakamii/.ivy2/cache/org.scala-sbt/compiler-interface/ivy-1.2.5.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/org.scala-sbt/compiler-interface/ivy-1.2.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.5/compiler-interface-1.2.5.pom"/>
+				<caller organisation="ch.epfl.lamp" name="dotty-compiler_0.24" conf="default, compile, runtime, master" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="0.24.0-RC1"/>
+				<artifacts>
+					<artifact name="compiler-interface" type="jar" ext="jar" status="successful" details="" size="91169" time="1370" location="/Users/kawakamii/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-1.2.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.5/compiler-interface-1.2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="util-interface">
+			<revision name="1.2.2" status="release" pubdate="20180830042432" resolver="public" artresolver="public" homepage="https://github.com/sbt/util" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="2775" time="454" location="/Users/kawakamii/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.2.2.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.pom"/>
+				<caller organisation="org.scala-sbt" name="compiler-interface" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
+				<artifacts>
+					<artifact name="util-interface" type="jar" ext="jar" status="successful" details="" size="2572" time="488" location="/Users/kawakamii/.ivy2/cache/org.scala-sbt/util-interface/jars/util-interface-1.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-asm">
+			<revision name="7.3.1-scala-1" status="release" pubdate="20200130223017" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="1488" time="432" location="/Users/kawakamii/.ivy2/cache/org.scala-lang.modules/scala-asm/ivy-7.3.1-scala-1.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/org.scala-lang.modules/scala-asm/ivy-7.3.1-scala-1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.pom"/>
+				<caller organisation="ch.epfl.lamp" name="dotty-compiler_0.24" conf="default, compile, runtime, master" rev="7.3.1-scala-1" rev-constraint-default="7.3.1-scala-1" rev-constraint-dynamic="7.3.1-scala-1" callerrev="0.24.0-RC1"/>
+				<artifacts>
+					<artifact name="scala-asm" type="bundle" ext="jar" status="successful" details="" size="311182" time="1614" location="/Users/kawakamii/.ivy2/cache/org.scala-lang.modules/scala-asm/bundles/scala-asm-7.3.1-scala-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.epfl.lamp" name="tasty-core_0.24">
+			<revision name="0.24.0-RC1" status="release" pubdate="20200427202411" resolver="public" artresolver="public" homepage="https://github.com/lampepfl/dotty" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3642" time="588" location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/tasty-core_0.24/ivy-0.24.0-RC1.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/tasty-core_0.24/ivy-0.24.0-RC1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.24/0.24.0-RC1/tasty-core_0.24-0.24.0-RC1.pom"/>
+				<caller organisation="ch.epfl.lamp" name="dotty-compiler_0.24" conf="default, compile, runtime, master" rev="0.24.0-RC1" rev-constraint-default="0.24.0-RC1" rev-constraint-dynamic="0.24.0-RC1" callerrev="0.24.0-RC1"/>
+				<artifacts>
+					<artifact name="tasty-core_0.24" type="jar" ext="jar" status="successful" details="" size="52832" time="1317" location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/tasty-core_0.24/jars/tasty-core_0.24-0.24.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.24/0.24.0-RC1/tasty-core_0.24-0.24.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.epfl.lamp" name="dotty-library_0.24">
+			<revision name="0.24.0-RC1" status="release" pubdate="20200427202413" resolver="public" artresolver="public" homepage="https://github.com/lampepfl/dotty" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3644" time="423" location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/dotty-library_0.24/ivy-0.24.0-RC1.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/dotty-library_0.24/ivy-0.24.0-RC1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.24/0.24.0-RC1/dotty-library_0.24-0.24.0-RC1.pom"/>
+				<caller organisation="ch.epfl.lamp" name="tasty-core_0.24" conf="compile, runtime" rev="0.24.0-RC1" rev-constraint-default="0.24.0-RC1" rev-constraint-dynamic="0.24.0-RC1" callerrev="0.24.0-RC1"/>
+				<caller organisation="ch.epfl.lamp" name="dotty-compiler_0.24" conf="default, compile, runtime, master" rev="0.24.0-RC1" rev-constraint-default="0.24.0-RC1" rev-constraint-dynamic="0.24.0-RC1" callerrev="0.24.0-RC1"/>
+				<artifacts>
+					<artifact name="dotty-library_0.24" type="jar" ext="jar" status="successful" details="" size="1491581" time="1296" location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/dotty-library_0.24/jars/dotty-library_0.24-0.24.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.24/0.24.0-RC1/dotty-library_0.24-0.24.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.2" status="release" pubdate="20200423130229" resolver="public" artresolver="public" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.2/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1600" time="456" location="/Users/kawakamii/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.2.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.pom"/>
+				<caller organisation="ch.epfl.lamp" name="dotty-library_0.24" conf="compile, runtime" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="0.24.0-RC1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5865349" time="5776" location="/Users/kawakamii/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.epfl.lamp" name="dotty-interfaces">
+			<revision name="0.24.0-RC1" status="release" pubdate="20200427202411" resolver="public" artresolver="public" homepage="https://github.com/lampepfl/dotty" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3444" time="604" location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/dotty-interfaces/ivy-0.24.0-RC1.xml" searched="true" original-local-location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/dotty-interfaces/ivy-0.24.0-RC1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.24.0-RC1/dotty-interfaces-0.24.0-RC1.pom"/>
+				<caller organisation="ch.epfl.lamp" name="dotty-compiler_0.24" conf="default, compile, runtime, master" rev="0.24.0-RC1" rev-constraint-default="0.24.0-RC1" rev-constraint-dynamic="0.24.0-RC1" callerrev="0.24.0-RC1"/>
+				<artifacts>
+					<artifact name="dotty-interfaces" type="jar" ext="jar" status="successful" details="" size="3500" time="1106" location="/Users/kawakamii/.ivy2/cache/ch.epfl.lamp/dotty-interfaces/jars/dotty-interfaces-0.24.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.24.0-RC1/dotty-interfaces-0.24.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

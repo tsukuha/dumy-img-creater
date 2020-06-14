@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="sbt: ch.epfl.lamp:dotty-library_0.24:0.24.0-RC1:jar" type="Scala">
+    <properties>
+      <language-level>Scala_3_0</language-level>
+      <compiler-classpath>
+        <root url="file://$USER_HOME$/.ivy2/cache/ch.epfl.lamp/dotty-compiler_0.24/jars/dotty-compiler_0.24-0.24.0-RC1.jar" />
+        <root url="file://$USER_HOME$/.ivy2/cache/ch.epfl.lamp/dotty-interfaces/jars/dotty-interfaces-0.24.0-RC1.jar" />
+        <root url="file://$USER_HOME$/.ivy2/cache/ch.epfl.lamp/dotty-library_0.24/jars/dotty-library_0.24-0.24.0-RC1.jar" />
+        <root url="file://$USER_HOME$/.ivy2/cache/ch.epfl.lamp/tasty-core_0.24/jars/tasty-core_0.24-0.24.0-RC1.jar" />
+        <root url="file://$USER_HOME$/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.2.2.jar" />
+        <root url="file://$USER_HOME$/.ivy2/cache/org.jline/jline-reader/jars/jline-reader-3.9.0.jar" />
+        <root url="file://$USER_HOME$/.ivy2/cache/org.jline/jline-terminal-jna/jars/jline-terminal-jna-3.9.0.jar" />
+        <root url="file://$USER_HOME$/.ivy2/cache/org.jline/jline-terminal/jars/jline-terminal-3.9.0.jar" />
+        <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-asm/bundles/scala-asm-7.3.1-scala-1.jar" />
+        <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.2.jar" />
+        <root url="file://$USER_HOME$/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-1.2.5.jar" />
+        <root url="file://$USER_HOME$/.ivy2/cache/org.scala-sbt/util-interface/jars/util-interface-1.2.2.jar" />
+      </compiler-classpath>
+    </properties>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.24/0.24.0-RC1/dotty-library_0.24-0.24.0-RC1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.24/0.24.0-RC1/dotty-library_0.24-0.24.0-RC1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.24/0.24.0-RC1/dotty-library_0.24-0.24.0-RC1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
