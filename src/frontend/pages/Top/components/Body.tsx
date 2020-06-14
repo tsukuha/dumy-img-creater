@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { useState, Dispatch, SetStateAction } from 'react';
-import * as styles from '../scss/client.scss';
+import * as styles from './scss/body.scss';
 
-const getTimeLineListElms = (timeLineDataLists: Array<Record<string, any>>): Array<JSX.Element> => {
+const getBodyListElms = (timeLineDataLists: Array<Record<string, any>>): Array<JSX.Element> => {
     return timeLineDataLists.map((timeLineDataList: Record<string, any>, key: number) => (
         <li className={styles.media} key={key}>
             <div className={styles.displayFlex}>
@@ -25,7 +25,7 @@ const getTimeLineListElms = (timeLineDataLists: Array<Record<string, any>>): Arr
     ));
 };
 
-const TimeLine = (): JSX.Element => {
+const Body = (): JSX.Element => {
     const [update, updateState]: [number, Dispatch<SetStateAction<number>>] = useState(0);
     const stateValueUpdate = (): void => {
         if (update) {
@@ -36,9 +36,9 @@ const TimeLine = (): JSX.Element => {
     };
     return (
         <div className={styles.timeLine}>
-            <ul>{getTimeLineListElms([])}</ul>
+            <ul>{getBodyListElms([])}</ul>
         </div>
     );
 };
 
-export { TimeLine };
+export { Body };
