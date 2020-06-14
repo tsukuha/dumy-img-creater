@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState, Dispatch, SetStateAction } from 'react';
-import * as styles from './scss/body.scss';
+import * as styles from './scss/main.scss';
 
 const getBodyListElms = (timeLineDataLists: Array<Record<string, any>>): Array<JSX.Element> => {
     return timeLineDataLists.map((timeLineDataList: Record<string, any>, key: number) => (
@@ -25,7 +25,7 @@ const getBodyListElms = (timeLineDataLists: Array<Record<string, any>>): Array<J
     ));
 };
 
-const Body = (): JSX.Element => {
+const Main = (): JSX.Element => {
     const [update, updateState]: [number, Dispatch<SetStateAction<number>>] = useState(0);
     const stateValueUpdate = (): void => {
         if (update) {
@@ -35,10 +35,10 @@ const Body = (): JSX.Element => {
         }
     };
     return (
-        <div className={styles.timeLine}>
+        <main className={styles.timeLine}>
             <ul>{getBodyListElms([])}</ul>
-        </div>
+        </main>
     );
 };
 
-export { Body };
+export { Main };
