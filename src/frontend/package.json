@@ -2,12 +2,12 @@
   "name": "dumy-img-ceater",
   "version": "1.0.0",
   "description": "",
-  "main": "Main.tsx",
+  "main": "src/PageIndex.tsx",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
-    "lint-check": "./node_modules/.bin/eslint src/frontend -c ./.eslintrc --ext ts,tsx; exit 0",
-    "lint-fix": "./node_modules/.bin/eslint --fix src/frontend -c ./.eslintrc --ext ts,tsx; exit 0"
+    "lint-check": "./node_modules/.bin/eslint src/ -c ./.eslintrc --ext ts,tsx; exit 0",
+    "lint-fix": "./node_modules/.bin/eslint --fix src/ -c ./.eslintrc --ext ts,tsx; exit 0"
   },
   "author": "",
   "license": "ISC",

@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { Top } from './pages/Top/Top';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-const Main = (): JSX.Element => {
+const PageIndex = (): JSX.Element => {
     return (
         <BrowserRouter>
             <Switch>
@@ -13,4 +13,4 @@ const Main = (): JSX.Element => {
     );
 };
 
-render(<Main />, document.getElementById('root'));
+render(<PageIndex />, document.getElementById('root'));

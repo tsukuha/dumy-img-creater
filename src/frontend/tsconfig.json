@@ -4,14 +4,18 @@
         "noImplicitAny": true,
         "allowJs": true,
         "strict": true,
-        "module": "ES6",
+        "module": "ESNext",
         "target": "es5",
         "jsx": "react",
+        "baseUrl":"src/",
+        "paths": {
+            "@commons/*": ["commons/*"],
+        },
     },
     "include": [
-        "src",
+        "src/**/*",
     ],
     "exclude": [
-        "node_modules"
+        "node_modules",
     ],
 }

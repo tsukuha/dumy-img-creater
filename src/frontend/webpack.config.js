@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
 	mode: 'development',
 	devtool: 'source-map',
-	entry: path.resolve(__dirname, 'src/Main.tsx'),
+	entry: path.resolve(__dirname, 'src/PageIndex.tsx'),
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'bundle.js'
@@ -17,8 +17,11 @@ module.exports = {
 		historyApiFallback: true, // without no routing
 	},
 	resolve: {
+		alias: {
+			'@commons': path.resolve(__dirname, 'src/commons'),
+		},
 		modules: [path.resolve(__dirname, 'src'), path.resolve(__dirname, 'node_modules')],
-		extensions: ['.ts', '.tsx', '.js']
+		extensions: ['.ts', '.tsx', '.js'],
 	},
 	module: {
 		rules: [
