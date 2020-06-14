@@ -9,7 +9,7 @@ const Top = (): JSX.Element => {
         <div>
             <Header />
             <Body />
-            <Footer />  
+            <Footer />
         </div>
     );
 };
