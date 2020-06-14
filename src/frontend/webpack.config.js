@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
 	mode: 'development',
 	devtool: 'source-map',
-	entry: path.resolve(__dirname, 'src/frontend/Main.tsx'),
+	entry: path.resolve(__dirname, 'src/Main.tsx'),
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'bundle.js'
@@ -17,7 +17,7 @@ module.exports = {
 		historyApiFallback: true, // without no routing
 	},
 	resolve: {
-		modules: [path.resolve(__dirname, 'src/frontend'), path.resolve(__dirname, 'node_modules')],
+		modules: [path.resolve(__dirname, 'src'), path.resolve(__dirname, 'node_modules')],
 		extensions: ['.ts', '.tsx', '.js']
 	},
 	module: {
@@ -38,7 +38,7 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			publicPath: 'dist',
 			filename: 'index.html',
-			template: 'src/frontend/html/index.html',
+			template: 'src/html/index.html',
 		}),
 		new MiniCssExtractPlugin({
 			publicPath: 'dist',
