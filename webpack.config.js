@@ -17,7 +17,7 @@ module.exports = {
 		historyApiFallback: true, // without no routing
 	},
 	resolve: {
-		modules: [path.resolve(__dirname, 'src'), path.resolve(__dirname, 'node_modules')],
+		modules: [path.resolve(__dirname, 'src/frontend'), path.resolve(__dirname, 'node_modules')],
 		extensions: ['.ts', '.tsx', '.js']
 	},
 	module: {
