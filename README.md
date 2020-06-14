@@ -1,6 +1,6 @@
 # Dumy Img Creater
 
-## Buid Frontend
+## Build Frontend
 
 `build`: Run Buid  
 `start`: Start Local Server  
