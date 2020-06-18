@@ -1,14 +1,14 @@
 {
     "extends": [
+      "plugin:react/recommended",
       "eslint:recommended",
+      "plugin:react-hooks/recommended",
       "plugin:@typescript-eslint/eslint-recommended",
-      "plugin:@typescript-eslint/recommended",
-      "prettier/@typescript-eslint",
-      "plugin:prettier/recommended",
-      "prettier/react"
+      "plugin:@typescript-eslint/recommended"
     ],
     "plugins": [
-      "@typescript-eslint"
+      "react",
+      "react-hooks"
     ],
     "env": { "node": true, "es6": true },
     "parser": "@typescript-eslint/parser",
@@ -18,8 +18,5 @@
       },
       "project": "tsconfig.json",
       "useJSXTextNode": true
-    },
-    "rules": {
-        "prettier/prettier": "error"
     }
   }
